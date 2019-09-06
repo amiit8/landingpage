@@ -1,0 +1,21 @@
+#main{
+	text-decoration: none;
+	font-size: 12em;
+    cursor: pointer;
+    font-family: monospace;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    margin-top: calc(50vh - 70px/2);
+    opacity: .5;
+    transition: .8s;
+}
+#main a {
+	text-decoration: none;
+	color: #111;
+}
+#main:hover {
+	opacity: 1;
+	font-size: 14em;
+}
